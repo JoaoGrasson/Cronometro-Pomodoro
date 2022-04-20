@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    width: 150px !important;
+    height: 150px !important;
+    font-size: 50pt !important;
+    text-align: center !important;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: none;
+}
+
+.time {
+    color: #ece5e5;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto !important;
+    border-color: #3C4262;
+}
+
+h2 {
+    font-size: 90pt;
+}
+
+#timer {
+    display: none !important;
+    position: fixed;
+    left: 630px;
+    top: 150px;
+}
+
+#btnp {
+    position: fixed;
+    left: 1000px;
+    top: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnpl {
+    position: fixed;
+    left: 1000px;
+    top: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#txtsessoes {
+    position: fixed;
+    left: 690px;
+    top: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#setac {
+    position: fixed;
+    left: 440px;
+    top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#setab {
+    position: fixed;
+    left: 440px;
+    top: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#setac2 {
+    position: fixed;
+    left: 680px;
+    top: 250px;
+}
+
+#setab2 {
+    position: fixed;
+    left: 680px;
+    top: 330px;
+}
+
+#setac3 {
+    position: fixed;
+    left: 890px;
+    top: 250px;
+}
+
+#setab3 {
+    position: fixed;
+    left: 890px;
+    top: 330px;
+}
+
+#caixa1 {
+    position: fixed;
+    left: 400px;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caixa2 {
+    position: fixed;
+    left: 600px;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caixa3 {
+    position: fixed;
+    left: 800px;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#continuar {
+    position: fixed;
+    left: 750px;
+    top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pomodoro {
+    position: fixed;
+    left: 720px;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#body {
+    color: #333853;
+    background-color: #333853;
+}
+
+#fim {
+    position: fixed;
+    left: 650px;
+    top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
