@@ -1,6 +1,9 @@
 let trabalho = document.getElementById('trabalho')
 let pausa = document.getElementById('pausa')
 let sessoes = document.getElementById('sessoes')
+trabalho.value = 25;
+pausa.value = 5;
+sessoes.value = 3;
 let segundos
 
 var bell = new Audio("./audio/bell.mp3")
