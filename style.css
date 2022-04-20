@@ -44,19 +44,10 @@ h2 {
     top: 150px;
 }
 
-#btnp {
-    position: fixed;
-    left: 1000px;
-    top: 330px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #btnpl {
     position: fixed;
     left: 1000px;
-    top: 270px;
+    top: 290px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,4 +161,27 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+input[type=checkbox] { 
+    display:none; 
+}
+
+input[type=checkbox] + label:before {   
+    font-family: FontAwesome;   
+    display: inline-block; 
+    font-size: 90pt;
+}  
+
+input[type=checkbox] + label:before { 
+    content: "\f28c"; 
+}  
+
+input[type=checkbox]:checked + label:before { 
+    content: "\f01d"; 
+} 
+
+#btn{
+    position: absolute;
+    top: 50%;
 }

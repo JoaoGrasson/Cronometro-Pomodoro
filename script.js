@@ -11,6 +11,15 @@ var volta = new Audio("./audio/volta.mp3")
 var final = new Audio("./audio/final.mp3")
 let pausee = true;
 
+const checkbox = document.getElementById('btn')
+
+checkbox.addEventListener('change', (event) => {
+  if (event.currentTarget.checked) {
+    playtime();
+  } else {
+    pausetime();
+  }
+})
 
 function iniciar() {
     if (trabalho.value <= 0) {
@@ -41,7 +50,7 @@ function momentoTrabalho() {
     let sessoes_valor = localStorage.getItem('sessoes')
 
     if (localStorage.getItem('sessoes') != '1')
-        document.getElementById('title_sessao').innerHTML = sessoes_valor + ' sessões restasntes'
+        document.getElementById('title_sessao').innerHTML = sessoes_valor + ' sessões restantes'
     else {
         document.getElementById('title_sessao').innerHTML = sessoes_valor + ' sessão restasnte'
     }
